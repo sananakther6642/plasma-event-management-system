@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Volkhov&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+#myVideo {
+ height:100%;
+ margin-top:5cm;
+   
+    
+   z-index: -2;
+   width: 100%;
+ 
+   
+    
+}
+#nh{
+ 
+}
+
+
+#about{
+ 
+ background-color: rgb(241, 241, 241);
+ height: 100%;
+ color: rgb(0, 0, 0);
+ font-size: 25px;
+ width: 100%;
+}
+
+
+#about h2{
+ font-size: 1cm;
+ margin-top: 2cm;
+}
+#about h3{
+ font-size: 1cm;
+ margin-top: 2cm;
+}
+
+.hero-container .k{
+ 
+ font-size: 2cm;
+ font-weight: 200;
+text-align: center;
+margin-top: 3cm;
+color: white;
+font-family: 'Times New Roman', Times, serif;
+}
+.hero-container .jk{
+ font-size: 1cm;
+ font-weight: 200;
+text-align: center;
+margin-top: 3cm;
+color: white;
+font-family: 'Times New Roman', Times, serif;
+}
+.hero-container .z{
+  font-size: 0.5cm;
+ font-weight: 200;
+text-align: center;
+margin-top: 3cm;
+color: white;
+font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+#event-handler{
+ background-color: transparent;
+  
+ color: rgb(0, 0, 0);
+  height:100%;
+  
+  
+
+ 
+}
+.jb12{
+display:flex;
+margin-top:1cm;
+}
+.card1 {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    max-width: 350px;
+    text-align: center;
+    margin-top: 60px;
+    margin-left:1cm;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.image1 {
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 100%;
+    margin: -60px auto 0;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+.image1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.inf1{
+    padding-bottom: 20px;
+}
+
+
+.card2 {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    max-width: 350px;
+    text-align: center;
+    margin-top: 60px;
+    margin-left:1cm;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.image2 {
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 100%;
+    margin: -60px auto 0;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+.image2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.inf2{
+    padding-bottom: 20px;
+}
+#schedule{
+ height: 100%;
+  background-color: #f6f7fd;
+}
+
+
+#schedule .nav-pills a.active{
+ background-color: #070102;
+ color: white;
+ 
+ 
+
+}
+#schedule .nav-tabs li{
+ border-radius: 2cm;
+ -webkit-border-radius: 2cm;
+ -moz-border-radius: 2cm;
+ -ms-border-radius: 2cm;
+ -o-border-radius: 2cm;
+ font-size: 20px;
+ font-weight: bolder;
+ font-family: 'Times New Roman', Times, serif;
+}
+.nav-item a{
+ padding-left: 2cm;
+ padding-right: 2cm;
+ margin-left: 8cm;
+ 
+}
+
+#venue{
+ height: 100%;
+ margin-top: 1cm;
+margin-bottom: 2cm;
+width: 100%;
+
+}
+#event-handler h1{
+    font-size: 55px;
+    font-family:'Playfair Display', serif;
+    font-weight: bolder;
+    margin-top: 20px;
+    text-align: center;
+}
+#venue .section-header h2{
+ font-size: 1.4cm;
+ text-align: center;
+ font-family: 'Times New Roman', Times, serif;
+ font-weight: bolder;
+ 
+ 
+}
+.venue-info h3{
+ font-size: 1cm;
+ text-align: center;
+ font-weight: bolder;
+ font-family:  'Volkhov', serif;
+ margin-top: 1.3cm;
+color: wheat;
+
+}
+.venue-info p{
+ font-size: 0.6cm;
+ font-family: 'Amaranth', sans-serif;
+ 
+ color: white;
+
+}
+
+.venue-map iframe{
+ width: 100%;
+ 
+ 
+}
+.kn{
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-image:linear-gradient(rgba(0, 0, 0, 0.765),rgba(0, 0, 0, 0.3)) , url(https://images.shiksha.com/mediadata/images/1511154202phpnwb25q.png);
+ height:9cm;
+ width: 100%;
+ padding-left: 0.6cm;
+
+ background-color: rgb(255, 255, 255);
+ 
+}
+
+
+
+#gallery{
+    
+    background-color:rgb(255, 255, 255);
+    
+}
+.jbbb{
+    margin-top: 2cm;
+}
+
+
+#supporters{
+    width: 100%;
+    height: 100%;
+}
+.supporter-header h1{
+    font-size: 36px;
+    font-family:'Playfair Display', serif;
+    font-weight: bolder;
+    margin-top: 40px;
+    
+}
+
+
+
+#event-handler  .card{
+    background-color: #f6f7fd;
+    
+}
+#event-handler {
+    height: 100%;
+    width: 100%;
+}
+ 
+

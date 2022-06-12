@@ -1,0 +1,489 @@
+{% extends "plasmalayout.html" %}
+{% block title %}
+PLASMA
+{% endblock %}
+{% block content %}
+
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta name="description" content="PLASMA PAGE">
+    <meta name="author" content="SANAN AKTHER">
+    
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+
+
+
+  <!-- Template Main CSS File -->
+  <link href="{%static 'css/index.css' %}" rel="stylesheet" type="text/css">
+
+</head>
+
+<body style="">
+
+  <main id="main" style="height: 100%;" >
+  <section id="nh" class="content" >
+   
+     <video autoplay loop muted playsinline id="myVideo" >
+  <source src="{%static 'media/hero1.mp4'%}" style="" type="video/mp4">
+   
+  </video>
+ 
+  
+    
+  </section>
+  
+    <section id="about" style="height: 100%;width:100%;margin-top:0cm;">
+
+          
+      <div class="container " >
+        <div class="row">
+          <div class="col-lg j666"  style="margin-top: 1cm;">
+           <center> <h2 style=" font-size: 1.4cm;
+ text-align: center;
+ font-family: 'Times New Roman', Times, serif;
+ font-weight: bolder;">About Event</h2></center>
+
+          <center><hr  style="width:3.3cm; height:6px;border-radius: 20px;color:red;"></center>
+
+            
+            <p center  style="font-family: roman;"><span style="font-weight: bold;"> PLASMA</span>  is annual flagship event of Dept of ECE. It is National level tech fest where students from all across the state and country visit and compete with hundreds of enthusiasts in an array of <span style="font-weight: bold;">Robotic and Non-robotic events!</span> 
+
+In the 3rd Edition of PLASMA, we had 800+ teams among which 150 were from other states and the remaining were from various districts of Karnataka. In the subsequent year, PLASMA was hosted virtually which witnessed tremendous participation from all over the state and nearby regions.
+
+The current iteration of PLASMA 2022 boasts a winning amount of up to<span style="font-weight: bold;"> 1.5 Lakh rupees </span>and a plethora of robotic and non-robotic event.
+</p>
+<div class="row" style="margin-left: 4cm;margin-top:-2cm;font-family:roman">
+  <div class="col">
+<h3 style="font-weight: bold;">Where</h3>
+<hr  style="width:10%;margin-left:1cm; height:6px;border-radius: 20px;color:red;">
+<h4 style="font-weight: 600;"> JNN College of Engineering,<br> 
+Navule, 
+Shivamogga <br> 577204</h4>
+</div>
+<div class="col">
+<h3 style="font-weight: bold;">When</h3>
+<hr  style="width:10%;margin-left:1cm; height:6px;border-radius: 20px;color:red;">
+
+<h4 style="font-weight: 600;">Monday and Tuesday <br>
+
+30-31 May, 2022</h4>
+
+</div>
+
+</div>
+          </div>
+         
+        </div>
+      </div>
+      <br>
+      <br>
+    </section>
+
+  
+
+
+
+
+    <!-- ======= Venue Section ======= -->
+    <section id="venue" style="margin-top:0cm;">
+
+      <div class="container-fluid" >
+
+        <div class="section-header" >
+          <h2 >Event Venue</h2>
+          <center><hr  style="width:3.3cm; height:6px;border-radius: 20px;color:red;"></center>
+
+          
+        </div>
+
+        <div class="row g-0"style="">
+          <div class="col-lg-6 venue-map" >
+                  {% block kf1 %}
+  {% include "collgal1.html" %}
+{% endblock kf1 %}
+           </div>
+            <div class="col-lg-6 venue-info">
+            <div class="row justify j" style="">
+            
+           <iframe  style="" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d61950.60803197905!2d75.5440549!3d13.9637838!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbbafccff1f58b7%3A0x90d3d0ccca00f30e!2sJNNCE!5e0!3m2!1sen!2sin!4v1650138938805!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+      
+            </div>
+          </div>
+         
+        </div>
+        
+
+      </div>
+   
+<br>
+<br>
+    <section  id="abcollege " class="" style="width: 100%;">
+<div class="row"style="margin-left:cm;"  >
+<div style="background-color:#E8F9FD;margin-left:cm;margin-top:-1cm;">
+<br>
+<br>
+  <h1 style="font-size: 1.2cm; font-family:'Times New Roman', Times, serif; text-align:center;margin-left:cm;font-weight:bolder;margin-top:1cm;">About College</h1>
+          
+<center style="margin-left: cm;"><hr  style="width:3.3cm; height:6px;border-radius: 20px;color:red;"></center>
+<div style="margin-left:cm; ">
+<p style="font-size: 20px;font-weight:400;margin-left:cm; font-family:roman;" align="center" ><span style="font-weight: bold;"> JNNCE </span>was established in the year 1980 by the <span style="font-weight: bold;">National Education Society</span>.<br> The college is affiliated with <span  style="font-weight: bold;"> Visvesvaraya Technological University (VTU), Belagavi,</span> and is recognized by AICTE, New Delhi. <br>It offers 8 UG and 2 M.Tech Programs besides MBA and MCA.<br> It has 9 Research centers recognized by VTU. Spread over 39.4 acres, the campus has the amenities to cater to the needs of over <span style="font-weight: bold;"> 3400 students and 400 employees </span>. <br> Each department is equipped with a good infrastructure with qualified and experienced faculty and well-equipped laboratories.<br> The Institution has 46 doctorates and 56 research scholars to its credit. <br>The college is regarded as one of the excellent centers for technical education and research. <br>The college hosts a number of international and National workshops Conferences, seminars, and short-term courses throughout the academic year.</p>
+<p style="margin-left: 1cm; font-size:25px;font-weight:bold;  font-family:roman;">JNNCE is ranked by the following agencies in 2020-21:</p>
+<ul style="margin-left: 3.9cm;font-size:20px;font-weight:500 ; font-family:roman;">
+<li>Accredited by NAAC-B</li>
+<li> All 8 UG programs are Accredited by NBA (From 1.7.2019 to 30.6.2022)</li>
+<li>Accredited by UGC 2f & 12B Certification</li>
+<li>Outlook :80th(India);17th(Karnataka)</li>
+<li>India Today:48th(India);10th(Karnataka)</li>
+<li>The Week:50th(india)33rd(South India) : 13th(Karnataka)</li>
+<li>Career360:AAA</li>
+
+</ul>
+</div>
+</div>
+<div style="background-color: rgb(252, 236, 252);height:100%;">
+<h1 style="font-size: 1.2cm; font-family:'Times New Roman', Times, serif; text-align:center;margin-left:cm;font-weight:bolder;margin-top:3cm;">About Department</h1>
+          <center style=""><hr  style="width:3.3cm; height:6px;border-radius: 20px;color:red;"></center>
+
+<p style="margin-top:20px;font-size: 21px;font-weight:400; font-family:roman" align="center"><span style="font-weight: bold;"> The Department of Electronics & Communication Engineering </span> was started in the year 1980. <br>Department has well-equipped laboratories, qualified and experienced staff to cater to the needs of students of the UG program.<br> The ECE department has been accredited by NBA, New Delhi and recognized as a research center <br> under which 22 research scholars are pursuing Ph.D. under VTU Belgaum. UG students are actively involved in carrying out their projects at<br> New Age Incubation Network and NewGen IEDC. The department manages Institute of Electronics and Telecommunication Engineers (IETE),<br> Shivamogga center  and has IETE student forum. IETE is a national apex body of professional engineers devoted to advancements in Electronics, <br>Telecommunications, IT, and allied areas. The 56th center of IETE was inaugurated at <br> Jawaharlal Nehru National College of Engineering Shivamogga on 1st March 2009</p>
+</div>
+
+
+
+</div>
+
+
+
+
+</section>
+
+   
+
+ 
+
+<br><br><br>
+    <!-- ======= Gallery Section ======= -->
+    <section id="gallery" style="height: 100%;">
+
+      <div class="container jbbb">
+        <div class="section-header">
+          <h2 style="font-size: 1.6cm; font-family:'Times New Roman', Times, serif; text-align:center;margin-left:0.5cm;font-weight:bolder;margin-top:1cm;margin-right:20px;">Event Overview</h2>
+          <center><hr  style="width:3.3cm; height:6px;border-radius: 20px;color:red;"></center>
+   
+        </div>
+
+
+        
+
+{% block fk %}
+   {% include "eventover.html" %}
+{% endblock %}
+
+        
+      </div>
+
+   
+     
+   
+
+<section id="gallery1" class="" style="height:100%;z-index:-1;">
+  <h2 style="font-size: 1.6cm; font-family:'Times New Roman', Times, serif; text-align:center;margin-left:0.5cm;font-weight:bolder;margin-top:1cm;margin-right:20px;">Event Gallery</h2>
+          <center><hr  style="width:3.3cm; height:6px;border-radius: 20px;color:red;"></center>
+
+  {% block fo1 %}
+   {% include "eventgal.html" %}
+{% endblock %}
+
+  </section>    
+<br>
+
+<section id="documents" style="height: 100%;width:100%;margin-top:2cm;">
+   <center><h2 style="font-size: 1.6cm; font-family:'Times New Roman', Times, serif; font-weight:bolder;margin-top:20px;" >Documents</h2></center>
+          <center><hr  style="width:3.3cm; height:6px;border-radius: 20px;color:red;"></center>
+
+{% block fo09 %}
+  {% include "pdf.html" %}  
+{% endblock fo09 %}
+
+</section>
+<br>
+
+<br>
+<br>
+<br>
+
+    <!-- ======= Supporters Section ======= -->
+    <section id="supporters">
+ <h2 style="font-size: 1.6cm; font-family:'Times New Roman', Times, serif; text-align:center;margin-left:0.5cm;font-weight:bolder;margin-top:20px;margin-right:20px;" >Sponsors</h2>
+          <center><hr  style="width:3.3cm; height:6px;border-radius: 20px;color:red;"></center>
+      <div class="" style="margin-right:7%;margin-left:8%;" >
+        <div class="section-header">
+         
+
+        </div>
+
+        <div class="row"  >
+
+          <div class="col" style="">
+            <div class="supporter-header" >
+            <a href="https://www.iete.org/">  <img src="{%static 'media/iete.png' %}" alt="IETE" style="width: 5cm;margin-top:1cm; "></a>
+            </div>
+          </div>
+          <br>
+
+          <div class="col">
+            <div class="supporter-header">
+            <a href="https://www.ieee.org/">  <img src="{%static 'media/ieee.jpeg' %}" alt="IEEE" style="width: 7cm;margin-top:1cm;margin-right :1.5cm; "></a>
+             
+            </div>
+          </div>
+
+          <div class="col" style="">
+            <div class="supporter-header">
+              <a href="https://canarabank.com/"><img src="{%static 'media/canara.png' %}" alt="CANARA" style="width: 7cm;margin-top:1cm; "></a>
+              
+
+            </div>
+          </div>
+       
+          <div class="col" style="">
+            <div class="supporter-header">
+              <a href="https://www.yamaha-motor-india.com/"><img src="{%static 'media/yamaha.jpg' %}" alt="yamaha" style="width: 7cm;"></a>
+              
+
+            </div>
+          </div>
+
+
+         
+
+        
+
+          
+
+        </div>
+
+      </div>
+
+    </section>
+    <br>
+ 
+
+   
+
+
+
+<section id="banner" class="section-with-bg"style="margin-top:3cm;">
+      <h2 style="font-size: 1.6cm; font-family:'Times New Roman', Times, serif; text-align:center;margin-left:0.5cm;font-weight:bolder;margin-top:1cm;margin-right:20px;">Registrations</h2>
+          <center><hr  style="width:3.3cm; height:6px;border-radius: 20px;color:red;"></center>
+<br>
+{% block f1 %}
+   {% include "regi.html" %}
+{% endblock %}
+
+
+
+
+      
+    </section>
+
+
+    <!-- ======= Buy  ======= -->
+    
+ <section id="event-handler" style="margin-top: 3cm;">
+      <h1>EVENT ORGANISERS</h1>
+          <center><hr  style="width:3.3cm; height:6px;border-radius: 20px;color:red;"></center>
+<br>
+    <div class="row jb12" >
+  <div class="col-sm-4" style="margin-left: 6cm;">
+  <div class="card  card1"> 
+    <div class="card_img image1"> 
+        <img src="{%static 'media/or2.jpg'%}" alt="user-image">
+    </div>
+    <div class="card_info inf1"> 
+      <h5 style="font-weight: 600;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-decoration:underline;">Faculty Coordinator</h5>  
+      <h2 style="font-family: roman;">Sharath S M</h2>
+        <h3 style="font-family: roman;">Assistant professor,</h3>
+        <h4 style="font-family: roman;">Dept of ECE</h4>
+        
+
+        
+    </div>
+</div>
+
+
+  </div>
+  
+  <div class="col-sm-4">
+  <div class="card card2"> 
+    <div class="card_img image2"> 
+        <img src="{%static 'media/or1.jpg'%}" alt="user-image">
+    </div>
+    <div class="card_info inf2"> 
+      <h5 style="font-weight: 600;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-decoration:underline;">Faculty Coordinator</h5>  
+       
+      <h2 style="font-family: roman;">Shwetha H R</h2>
+        <h3 style="font-family: roman;">Assistant professor, </h3>
+        <h4 style="font-family: roman;">Dept of ECE</h4>
+
+    </div>
+</div>
+
+
+  </div>
+  <br>
+<p style="margin-top: 40px;"></p>
+  
+<div class="col-sm-4" >
+  <div class="card card2"> 
+    <div class="card_img image2"> 
+        <img src="{%static 'media/sh.jpeg'%}" alt="user-image">
+    </div>
+    <div class="card_info inf2"> 
+        <h5 style="font-weight: 600;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-decoration:underline;">Coordinator</h5>  
+       
+      <h2 style="font-family: roman;">Shashank G S,</h2>
+        <h3 style="font-family: roman;">Student,</h3>
+        <h4 style="font-family: roman;">Dept of ECE</h4>
+
+    </div>
+</div>
+
+
+  </div>
+  <div class="col-sm-4">
+  <div class="card card2"> 
+    <div class="card_img image2"> 
+        <img src="{%static 'media/pr.jpeg'%}" alt="user-image">
+    </div>
+    <div class="card_info inf2"> 
+                <h5 style="font-weight: 600;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-decoration:underline;">Conveyers</h5>  
+       
+      <h2 style="font-family: roman;">Prabhanjana M N</h2>
+        <h3 style="font-family: roman;">Student,</h3>
+        <h4 style="font-family: roman;">Dept of ECE</h4>
+
+    </div>
+</div>
+
+
+  </div>
+  <div class="col-sm-4">
+  <div class="card card2"> 
+    <div class="card_img image2"> 
+        <img src="{%static 'media/sk.jpeg'%}" alt="user-image">
+    </div>
+    <div class="card_info inf2"> 
+                <h5 style="font-weight: 600;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-decoration:underline;">Conveyers</h5>  
+       
+      <h2 style="font-family: roman;">Skanda R Naidu</h2>
+        <h3 style="font-family: roman;">Student,</h3>
+        <h4 style="font-family: roman;">Dept of ECE</h4>
+    </div>
+</div>
+
+
+  </div>
+  
+  
+ 
+ 
+</div> 
+    </section>
+    <br>
+    <br><br>
+    <br>
+    
+<section id="contact-us" class="section-with-bg"style="height:100%;margin-top:1cm;width:100%" >
+      <h2 style="font-size: 1.6cm; font-family:'Times New Roman', Times, serif; text-align:center;margin-left:0.5cm;font-weight:bolder;margin-top:1cm;margin-right:20px;">Contact Us</h2>
+          <center><hr  style="width:3.3cm; height:6px;border-radius: 20px;color:red;"></center>
+      
+  
+<br><form class="cof container" >
+    
+   <form  role="form" class="email-form" id="uform">
+            <div class="row">
+              <div class="form-group col-md-6">
+                <input type="text" name="name" class="form-control" id="names" placeholder="Your Name" required>
+              </div>
+              <div class="form-group col-md-6 mt-3 mt-md-0">
+                <input type="email" class="form-control" name="email" id="emails" placeholder="Your Email" required>
+              </div>
+            </div>
+            <div class="form-group mt-3">
+              <input type="text" class="form-control" name="subject" id="subjects" placeholder="Subject" required>
+            </div>
+            <div class="form-group mt-3">
+              <textarea class="form-control" name="message" rows="5" placeholder="Message"  id = "messages" required></textarea>
+            </div>
+           <br>
+
+            <div class="text-center"><button type="button" class="btn btn-primary"style="font-weight:bold; font-size:20px;" id="contbtn">Send Message</button></div>
+          {% csrf_token %}
+          </form>
+          
+
+</section>
+
+
+
+
+
+
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $('#contbtn').click(function(e){
+        e.preventDefault()
+        var names =$("#names").val()
+        var emails = $('#emails').val()
+        var subjects = $('#subjects').val()
+
+        var messages = $('#messages').val()
+ 
+        var fd1 = new FormData(); 
+        fd1.append('names',names)
+        fd1.append('emails',emails)
+        fd1.append('subjects',subjects)
+        fd1.append('messages',messages)
+        fd1.append('csrfmiddlewaretoken',"{{csrf_token}}")
+
+
+
+        $.ajax({ 
+                    url: 'http://127.0.0.1:8000/regfor/', 
+                    type: 'post', 
+                    data: fd1, 
+                   
+                    contentType: false, 
+                    processData: false, 
+                    success: function(response){ 
+                      swal("Thank you for  contacting us, we will reach you shortly  ","");
+                      
+                    }, 
+                  });
+});
+  });
+
+
+
+</script>
+
+
+
+
+
+
+{% endblock %}

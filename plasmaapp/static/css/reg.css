@@ -1,0 +1,151 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
+#regForm {
+  background-color: #ffffff;
+  margin: 30px auto;
+  font-family: Raleway;
+  padding: 40px;
+  width:100%;
+  min-width: 300px;
+ 
+}
+
+h1 {
+  text-align: center;  
+}
+
+input {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+  font-weight:300;
+  margin-left: 1cm;
+  
+}
+
+/* Mark input boxes that gets an error on validation: */
+
+
+/* Hide all steps by default: */
+
+
+button {
+  background-color: #04AA6D;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-family: Raleway;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+
+
+
+.checkbox-menu li label {
+    display: block;
+    padding: 3px 10px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+    margin:0;
+    transition: background-color .4s ease;
+    -webkit-transition: background-color .4s ease;
+    -moz-transition: background-color .4s ease;
+    -ms-transition: background-color .4s ease;
+    -o-transition: background-color .4s ease;
+}
+.checkbox-menu li input {
+    margin: 0px 5px;
+    top: 2px;
+    position: relative;
+}
+
+.checkbox-menu li.active label {
+    background-color: #cbcbff;
+    font-weight:bold;
+}
+
+.checkbox-menu li label:hover,
+.checkbox-menu li label:focus {
+    background-color: #f5f5f5;
+}
+
+.checkbox-menu li.active label:hover,
+.checkbox-menu li.active label:focus {
+    background-color: #b8b8ff;
+}
+
+#amount{
+  font-weight: bold;
+  font-size: larger;
+  text-align: center;
+}
+
+.j182 input[type=text]{
+  border:none;border-bottom:1px solid black;
+  font-weight: 450;
+  
+}
+.j182 input[type=text]:focus {
+    outline: none;
+    margin-left:1cm;
+}
+.j182 select{
+  width: 5.5cm;border:none; border-bottom:1px solid black;
+
+}
+.j182 select:focus{
+  outline: none;
+  
+
+}
+
+.j182 label{
+  font-size: 25px;
+
+}
+.j182 input[type=date]{
+  width: 5.5cm;border:none; border-bottom:1px solid black;
+
+}
+.j182 input[type=date]:focus{
+  outline: none;
+  
+
+}
+.j182 input[type=number]{
+  border:none;border-bottom:1px solid black;
+  font-weight: 450;
+  
+}
+.j182 input[type=number]:focus {
+    outline: none;
+    margin-left:1cm;
+}
+/* FIREFOX */
+.j182 input[type=number]{
+-moz-appearance: textfield;
+}
+/* CHROME */
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button{
+  -webkit-appearance: none;
+  margin:0;
+}

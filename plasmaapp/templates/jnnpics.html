@@ -1,0 +1,49 @@
+<html>
+  {% load static %}
+  <body class="ki">
+    <div class="container jh">
+      <img src="{%static 'media/jnn.jpg'%}" alt="">
+      <img src="https://images.unsplash.com/photo-1582842195329-6a0baffd2a39?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+      <img src="https://images.unsplash.com/photo-1582842195329-6a0baffd2a39?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+      <img src="https://images.unsplash.com/photo-1582842195329-6a0baffd2a39?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+      <img src="https://images.unsplash.com/photo-1582842195329-6a0baffd2a39?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+      <img src="https://images.unsplash.com/photo-1582842195329-6a0baffd2a39?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+      
+    </div>
+  </body>
+</html>
+<style>
+
+
+.jh img {
+  margin-top: 1cm;
+  width: 5cm;
+  height: 100%;
+  object-fit:cover;
+  
+  -webkit-box-reflect:below 2px linear-gradient(transparent, transparent, #0004);
+  
+  transform-origin:center;
+  transform:perspective(800px) rotateY(25deg);
+  transition:0.5s;
+}
+.jh {
+  max-width:600px;
+  max-height:350px;
+  
+  
+  
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:20px;
+  
+}
+.jh:hover img {
+  opacity:0.3;
+}
+.jh img:hover {
+  transform:perspective(800px) rotateY(0deg);
+  opacity:1;
+}
+</style>
